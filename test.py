@@ -14,6 +14,7 @@ lines.remove(lines[0])
 
 #'create' pizza list
 pizza = []
+#iterator
 i=0
 while(i < len(lines)):
 	temp = lines[i]
@@ -22,5 +23,8 @@ while(i < len(lines)):
 	pizza.append(curList)
 	i += 1
 
-print(pizza)
+for j in range(R):
+	for k in range(C):
+		print(pizza[j][k]),
+	print
 
